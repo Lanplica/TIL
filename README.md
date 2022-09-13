@@ -18,10 +18,20 @@
 - 명령 모드와 입력 모드
   - vim에디터를 열 때는 명령 모드로 진입함
   - 명령 모드에서는 입력 불가
-  - 입력하려면 'i'를 눌러 입력 모드로 전환
-  - 입력 완료 후 저장하려면 'esc'를 눌러 명령 모드로 전환
+  - 입력하려면 `i`를 눌러 입력 모드로 전환
+  - 입력 완료 후 저장하려면 `esc`를 눌러 명령 모드로 전환
   - 입력 가능한 명령어
-    - ':w' : 저장/write
-    - ':q' : vim에서 나오기/quit
-    - ':wq' : 저장하고 나오기
+    - `:w` : 저장/write
+    - `:q` : vim에서 나오기/quit
+    - `:wq` : 저장하고 나오기
   - 참고자료 [링크](https://velog.io/@717lumos/Vim-Vim-editor-%EC%82%AC%EC%9A%A9%EB%B2%95)
+
+#### 마크다운 문법
+- 링크 추가
+- [링크](https://gist.github.com/ihoneymon/652be052a0727ad59601)
+- * 외부링크
+```
+사용문법: [Title](link)
+적용예: [Google](https://google.com, "google link")
+```
+Link: [Google](https://google.com, "google link")
