@@ -28,10 +28,10 @@
 
 #### 마크다운 문법
 - 링크 추가
-- [링크](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 - * 외부링크
 ```
 사용문법: [Title](link)
 적용예: [Google](https://google.com, "google link")
 ```
 Link: [Google](https://google.com, "google link")
+- [링크](https://gist.github.com/ihoneymon/652be052a0727ad59601)
