@@ -58,9 +58,14 @@ Link: [Google](https://google.com, "google link")
 ##### 커밋
 - 커밋은 논리적 변경이 있을 때 만듦
 - 가능하면 커밋 크기가 작을수록 좋음
+- 커밋 이력보기: `git log'
 
 ##### 리포지토리
 - 정의: 여러 파일을 하나로 모은 컬렉션
+- 일반 디렉터리와 리포지토리의 차이: `.git` 디렉터리 유무
 
-`rm -rf` : 해당 git 전부 삭제 (r=recrusuive, f=
+
+`rm -rf` : 해당 git 전부 삭제 (r=recrusuive, f=force)
 캐시 = 임시저장
+git k, git 크라켄
+
