@@ -61,3 +61,6 @@ Link: [Google](https://google.com, "google link")
 
 ##### 리포지토리
 - 정의: 여러 파일을 하나로 모은 컬렉션
+
+`rm -rf` : 해당 git 전부 삭제 (r=recrusuive, f=
+캐시 = 임시저장
