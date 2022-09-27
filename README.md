@@ -64,8 +64,41 @@ Link: [Google](https://google.com, "google link")
 - 정의: 여러 파일을 하나로 모은 컬렉션
 - 일반 디렉터리와 리포지토리의 차이: `.git` 디렉터리 유무
 
+- `rm -rf` : 해당 git 전부 삭제 (r=recrusuive, f=force)
+- 캐시 = 임시저장
+- git k, git 크라켄
 
-`rm -rf` : 해당 git 전부 삭제 (r=recrusuive, f=force)
-캐시 = 임시저장
-git k, git 크라켄
+### 저장소 상태 파악하기
 
+
+
+## 2022-09-20
+
+#### 브랜치
+- 정의: A branch in Git is simply a lightweight movable pointer to one of these commits.
+- 브랜치는 특정한 목표를 가지고 코드를 수정할 때 주로 만듦
+  - 이슈 하나당 브랜치 하나를 주로 만듦
+
+##### 명령어
+1. 브랜치 목록 보기
+```
+git branch
+```
+
+2. 브랜치 생성하기
+```
+git branch 브랜치이름
+```
+
+3. 특정 브랜치로 전환하기
+```
+git checkout 브랜치이름
+```
+or
+```
+git switch 브랜치이름
+```
+4. 브랜치 생성과 체크아웃 동시에 하기
+```
+git checkout -b 브랜치명
+```
